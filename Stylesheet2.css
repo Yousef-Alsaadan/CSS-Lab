@@ -1,0 +1,57 @@
+/* main styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+body {
+    background-image: url("https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    object-fit: contain;
+    background-size: cover;
+}
+ul {
+    list-style: none;
+}
+li, a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+h1, h2, h3, h4, h5, h6, p {
+    color: #fff;
+}
+/* title styles */
+.title {
+    font-size: 2.5em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.main_list {
+    margin-bottom: 25px;
+}
+/* list styles */
+.style_list {
+    margin-left: 15px;
+    margin-bottom: 25px;
+}
+.sup_title {
+    text-decoration: underline;
+}
+
+.paragaf {
+    width: 50rem;
+}
+
+.btn {
+    background-color: #000000; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
